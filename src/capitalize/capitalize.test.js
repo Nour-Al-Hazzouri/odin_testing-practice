@@ -22,4 +22,9 @@ describe("First letter capitalization", () => {
   it("should not break with spaces", () => {
     expect(capitalize(" hi")).toMatch(" hi");
   });
+  it("should work with multiple parameters", () => {
+    expect(capitalize("hi", "hello", "capitalized")).toContain("Hi");
+    expect(capitalize("hi", "hello", "capitalized")).toContain("Hello");
+    expect(capitalize("hi", "hello", "capitalized")).toContain("Capitalized");
+  });
 });
