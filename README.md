@@ -1,3 +1,5 @@
-# Webpack Merge
+# Odin Testing Practice
 
-This repo is designed to be a template for webpack-merge to re-use config instead of constantly re-configuring it.
+This repo contains many exercises for the purpose of practicing `jest` and `TDD` approach.
+
+All code is in `./src/`
